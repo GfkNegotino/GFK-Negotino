@@ -110,6 +110,32 @@
     button:hover {
       background-color: #800000;
     }
+    /* Mobile responsive adjustments */
+    @media (max-width: 768px) {
+      header {
+        padding: 20px 10px;
+      }
+      header h1 {
+        font-size: 2em;
+      }
+      nav a {
+        display: block;
+        margin: 10px auto;
+        font-size: 1em;
+        padding: 10px;
+        width: 80%;
+      }
+      main {
+        padding: 10px;
+        font-size: 1em;
+      }
+      form {
+        padding: 15px;
+      }
+      input, textarea, button {
+        width: 100%;
+      }
+    }
   </style>
 </head>
 <body>
@@ -119,22 +145,19 @@
   </header>
 
   <nav>
-    <a href="index.html">Почетна</a>
-    <a href="results.html">Резултати</a>
-    <a href="gallery.html">Галерија</a>
-    <a href="contact.html">Контакт</a>
+    <a href="Почетна.html">Почетна</a>
+    <a href="Резултати.html">Резултати</a>
+    <a href="Почетна.html">Слики</a>
+    <a href="Контакт.html">Контакт</a>
   </nav>
 
   <main>
-
     <section class="contact-info">
       <h2>Контакт информации</h2>
       <p><strong>Е-пошта:</strong> <a href="mailto:ilijastojanov24@gmail.com" style="color:#c00000;">ilijastojanov24@gmail.com</a></p>
-      <p><strong>Телефон:</strong> <a href="tel:+38970123456" style="color:#c00000;">+389 78 384 154</a></p>
+      <p><strong>Телефон:</strong> <a href="tel:+38978384154" style="color:#c00000;">+389 78 384 154</a></p>
       <p><strong>Адреса:</strong> Ул. Димче Мирчев 13, Неготино, Македонија</p>
     </section>
-
-
   </main>
 
 </body>
